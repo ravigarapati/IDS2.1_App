@@ -1,0 +1,926 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BCC Temperature device screen Component to be rendered 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffff",
+        "flexDirection": "row",
+        "paddingBottom": 7,
+        "paddingTop": 7,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffff",
+          "flex": 0.15,
+          "flexDirection": "column",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "flex": 1,
+            "justifyContent": "center",
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 24,
+              },
+              Object {
+                "marginHorizontal": 10,
+              },
+              Object {
+                "fontFamily": "Bosch-Icon",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "flex": 1,
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "marginLeft": 24,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        numberOfLines={0}
+        style={
+          Array [
+            Object {
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "fontSize": 21,
+              "lineHeight": 31.5,
+            },
+            Object {
+              "fontFamily": "BoschSans-Medium",
+            },
+            Object {},
+          ]
+        }
+      >
+        Temperature
+      </Text>
+    </View>
+  </View>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/images/header_ribbon.png",
+      }
+    }
+    style={
+      Object {
+        "height": 8,
+        "width": "100%",
+      }
+    }
+  />
+  <RCTScrollView
+    collapsable={false}
+    contentContainerStyle={
+      Object {
+        "backgroundColor": "white",
+        "flexGrow": 1,
+      }
+    }
+    handlerTag={2}
+    handlerType="NativeViewGestureHandler"
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    waitFor={
+      Array [
+        Object {
+          "current": null,
+        },
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "marginBottom": 20,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "marginTop": 24,
+            }
+          }
+        >
+          <svg
+            data-file-name="SvgTemperatureSettings"
+            fill="#000"
+          />
+        </View>
+        <Text
+          accessibilityLabel="Please set the temperature settings
+for the thermostat"
+          accessible={true}
+          numberOfLines={0}
+          style={
+            Array [
+              Object {
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#000000",
+              },
+              Object {
+                "fontSize": 16,
+                "lineHeight": 24,
+              },
+              Object {
+                "fontFamily": "BoschSans-Regular",
+              },
+              Object {
+                "marginBottom": 22,
+                "marginTop": 16,
+              },
+            ]
+          }
+        >
+          Please set the temperature settings
+for the thermostat
+        </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "paddingHorizontal": 56,
+              "paddingVertical": 10,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flex": 1,
+                "height": 65,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  undefined,
+                  Object {
+                    "flex": 1,
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                    "marginVertical": 5,
+                  },
+                ]
+              }
+            >
+              <View
+                accessibilityHint="Activate to set the thermostat on fahrenheit mode."
+                accessibilityLabel="°F option"
+                accessibilityRole="button"
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "#FFFFFF",
+                    "borderColor": "#004975",
+                    "borderWidth": 1,
+                    "flex": 1,
+                    "opacity": 1,
+                    "paddingVertical": 15,
+                  }
+                }
+              >
+                <Text
+                  accessible={true}
+                  numberOfLines={0}
+                  style={
+                    Array [
+                      Object {
+                        "textAlign": "center",
+                      },
+                      Object {
+                        "color": "#004975",
+                      },
+                      Object {
+                        "fontSize": 16,
+                        "lineHeight": 24,
+                      },
+                      Object {
+                        "fontFamily": "BoschSans-Regular",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  °F
+                </Text>
+              </View>
+              <View
+                accessibilityHint="Activate to set the thermostat on celcius mode."
+                accessibilityLabel="°C option"
+                accessibilityRole="button"
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "#004975",
+                    "borderColor": "#004975",
+                    "borderWidth": 1,
+                    "flex": 1,
+                    "opacity": 1,
+                    "paddingVertical": 15,
+                  }
+                }
+              >
+                <Text
+                  accessible={true}
+                  numberOfLines={0}
+                  style={
+                    Array [
+                      Object {
+                        "textAlign": "center",
+                      },
+                      Object {
+                        "color": "#FFFFFF",
+                      },
+                      Object {
+                        "fontSize": 16,
+                        "lineHeight": 24,
+                      },
+                      Object {
+                        "fontFamily": "BoschSans-Regular",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  °C
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityActions={
+            Array [
+              Object {
+                "name": "activate",
+              },
+            ]
+          }
+          accessibilityHint="Activate to turn system on automatically when the room temperature reaches above the set temperature points."
+          accessibilityLabel="Auto-On"
+          accessible={true}
+          onAccessibilityAction={[Function]}
+          style={
+            Object {
+              "borderBottomColor": "#BFC0C2",
+              "borderBottomWidth": 1,
+              "marginHorizontal": 16,
+              "paddingBottom": 19,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginBottom": 18,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              numberOfLines={0}
+              style={
+                Array [
+                  Object {
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#000000",
+                  },
+                  Object {
+                    "fontSize": 16,
+                    "lineHeight": 24,
+                  },
+                  Object {
+                    "fontFamily": "BoschSans-Medium",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              Auto-On
+            </Text>
+            <View
+              style={
+                Object {
+                  "marginTop": -16,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="autoOption"
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "rgba(113, 118, 124, 1)",
+                      "borderRadius": 25,
+                      "flexDirection": "row",
+                      "height": 24,
+                      "marginHorizontal": 1,
+                      "marginTop": 16,
+                      "padding": 5,
+                      "width": 48,
+                    }
+                  }
+                >
+                  <View
+                    collapsable={false}
+                    style={Object {}}
+                  >
+                    <Text />
+                  </View>
+                  <View
+                    collapsable={false}
+                    style={
+                      Object {
+                        "backgroundColor": "rgba(255, 255, 255, 1)",
+                        "borderRadius": 20,
+                        "height": 12,
+                        "transform": Array [
+                          Object {
+                            "translateX": 0,
+                          },
+                        ],
+                        "width": 12,
+                      }
+                    }
+                  >
+                    <View
+                      collapsable={false}
+                      style={Object {}}
+                    >
+                      <Text />
+                    </View>
+                  </View>
+                  <View
+                    collapsable={false}
+                    style={Object {}}
+                  >
+                    <Text />
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "position": "absolute",
+                        "right": 5,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+          <Text
+            accessible={true}
+            numberOfLines={0}
+            style={
+              Array [
+                Object {
+                  "textAlign": "left",
+                },
+                Object {
+                  "color": "#000000",
+                },
+                Object {
+                  "fontSize": 16,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "fontFamily": "BoschSans-Regular",
+                },
+                Object {},
+              ]
+            }
+          >
+            Turn system on automatically when the
+room temperature reaches above the set
+temperature points.
+          </Text>
+        </View>
+        <View
+          accessibilityActions={
+            Array [
+              Object {
+                "name": "activate",
+              },
+            ]
+          }
+          accessibilityHint="Activate to send an alert message when room temperature is out of the set temperature point."
+          accessibilityLabel="Alert Message"
+          accessible={true}
+          onAccessibilityAction={[Function]}
+          style={
+            Object {
+              "marginHorizontal": 16,
+              "marginTop": 16,
+              "paddingBottom": 19,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginBottom": 18,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              numberOfLines={0}
+              style={
+                Array [
+                  Object {
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#000000",
+                  },
+                  Object {
+                    "fontSize": 16,
+                    "lineHeight": 24,
+                  },
+                  Object {
+                    "fontFamily": "BoschSans-Medium",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              Alert Message
+            </Text>
+            <View
+              style={
+                Object {
+                  "marginTop": -16,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+                testID="alertOption"
+              >
+                <View
+                  collapsable={false}
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "rgba(113, 118, 124, 1)",
+                      "borderRadius": 25,
+                      "flexDirection": "row",
+                      "height": 24,
+                      "marginHorizontal": 1,
+                      "marginTop": 16,
+                      "padding": 5,
+                      "width": 48,
+                    }
+                  }
+                >
+                  <View
+                    collapsable={false}
+                    style={Object {}}
+                  >
+                    <Text />
+                  </View>
+                  <View
+                    collapsable={false}
+                    style={
+                      Object {
+                        "backgroundColor": "rgba(255, 255, 255, 1)",
+                        "borderRadius": 20,
+                        "height": 12,
+                        "transform": Array [
+                          Object {
+                            "translateX": 0,
+                          },
+                        ],
+                        "width": 12,
+                      }
+                    }
+                  >
+                    <View
+                      collapsable={false}
+                      style={Object {}}
+                    >
+                      <Text />
+                    </View>
+                  </View>
+                  <View
+                    collapsable={false}
+                    style={Object {}}
+                  >
+                    <Text />
+                  </View>
+                  <View
+                    style={
+                      Object {
+                        "position": "absolute",
+                        "right": 5,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+          <Text
+            accessible={true}
+            numberOfLines={0}
+            style={
+              Array [
+                Object {
+                  "textAlign": "left",
+                },
+                Object {
+                  "color": "#000000",
+                },
+                Object {
+                  "fontSize": 16,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "fontFamily": "BoschSans-Regular",
+                },
+                Object {},
+              ]
+            }
+          >
+            Send an alert message when room
+temperature is out of the set temperature
+point.
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "marginHorizontal": 16,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            numberOfLines={0}
+            style={
+              Array [
+                Object {
+                  "textAlign": "left",
+                },
+                Object {
+                  "color": "#000000",
+                },
+                Object {
+                  "fontSize": 16,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "fontFamily": "BoschSans-Medium",
+                },
+                Object {
+                  "marginBottom": 18,
+                },
+              ]
+            }
+          >
+            Temperature
+          </Text>
+          <View
+            style={
+              Object {
+                "marginBottom": 16,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <View
+                accessibilityHint="Activate to open a modal and select the minimum temperature to send an alert."
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "borderBottomWidth": 1,
+                      "height": 56,
+                      "paddingLeft": 10,
+                      "paddingRight": 16,
+                      "width": "100%",
+                    },
+                    Object {
+                      "backgroundColor": "#EFF1F2",
+                    },
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                    },
+                  ]
+                }
+                testID="lowTemp"
+              >
+                <View>
+                  <Text
+                    accessible={true}
+                    numberOfLines={0}
+                    style={
+                      Array [
+                        Object {
+                          "textAlign": "left",
+                        },
+                        Object {
+                          "color": "#000000",
+                        },
+                        Object {
+                          "fontSize": 12,
+                          "lineHeight": 18,
+                        },
+                        Object {
+                          "fontFamily": "BoschSans-Regular",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    Low
+                  </Text>
+                  <Text
+                    accessible={true}
+                    numberOfLines={0}
+                    style={
+                      Array [
+                        Object {
+                          "textAlign": "left",
+                        },
+                        Object {
+                          "color": "#000000",
+                        },
+                        Object {
+                          "fontSize": 16,
+                          "lineHeight": 24,
+                        },
+                        Object {
+                          "fontFamily": "BoschSans-Regular",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    undefined°C
+                  </Text>
+                </View>
+                <svg
+                  data-file-name="SvgTemperature1"
+                  fill="#000"
+                />
+              </View>
+              <Modal
+                animationType="slide"
+                hardwareAccelerated={false}
+                onRequestClose={[Function]}
+                transparent={false}
+                visible={false}
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+          >
+            <View
+              accessibilityHint="Activate to open a modal and select the maximum temperature to send an alert."
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "borderBottomWidth": 1,
+                    "height": 56,
+                    "paddingLeft": 10,
+                    "paddingRight": 16,
+                    "width": "100%",
+                  },
+                  Object {
+                    "backgroundColor": "#EFF1F2",
+                  },
+                  Object {
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  },
+                ]
+              }
+              testID="highTemp"
+            >
+              <View>
+                <Text
+                  accessible={true}
+                  numberOfLines={0}
+                  style={
+                    Array [
+                      Object {
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "color": "#000000",
+                      },
+                      Object {
+                        "fontSize": 12,
+                        "lineHeight": 18,
+                      },
+                      Object {
+                        "fontFamily": "BoschSans-Regular",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  High
+                </Text>
+                <Text
+                  accessible={true}
+                  numberOfLines={0}
+                  style={
+                    Array [
+                      Object {
+                        "textAlign": "left",
+                      },
+                      Object {
+                        "color": "#000000",
+                      },
+                      Object {
+                        "fontSize": 16,
+                        "lineHeight": 24,
+                      },
+                      Object {
+                        "fontFamily": "BoschSans-Regular",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  undefined°C
+                </Text>
+              </View>
+              <svg
+                data-file-name="SvgTemperature1"
+                fill="#000"
+              />
+            </View>
+            <Modal
+              animationType="slide"
+              hardwareAccelerated={false}
+              onRequestClose={[Function]}
+              transparent={false}
+              visible={false}
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

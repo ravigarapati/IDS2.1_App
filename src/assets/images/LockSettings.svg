@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" viewBox="0 0 76 76">
+  <g id="Lock_Screen_-_Colored" data-name="Lock Screen - Colored" transform="translate(-150 -104)">
+    <g id="Rectangle_3041" data-name="Rectangle 3041" opacity="0">
+      <rect id="Rectangle_3041-2" data-name="Rectangle 3041" width="76" height="76" transform="translate(150 104)" fill="#fff"/>
+      <path id="Rectangle_3041_-_Outline" data-name="Rectangle 3041 - Outline" d="M1,1V75H75V1H1M0,0H76V76H0Z" transform="translate(150 104)" fill="#707070"/>
+    </g>
+    <path id="lock-closed_1_-colored" data-name="lock-closed (1)-colored" d="M83.3,42.6V36.9a20.9,20.9,0,1,0-41.8,0v5.7H32V92H92.8V42.6Zm-38-5.7a17.1,17.1,0,1,1,34.2,0v5.7H45.3ZM89,88.2H35.8V46.4H89ZM56.7,78.7H68.1V68.517a7.6,7.6,0,1,0-13.257-5.832A7.525,7.525,0,0,0,56.7,68.52Zm1.922-15.616a3.846,3.846,0,0,1,3.341-3.36,3.8,3.8,0,0,1,2.969,6.6l-.632.567V74.9H60.5V66.892l-.632-.566A3.777,3.777,0,0,1,58.622,63.084Z" transform="translate(126 88)" fill="#00a8af"/>
+  </g>
+</svg>

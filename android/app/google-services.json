@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "646675114354",
+    "project_id": "ids-dev-firebase",
+    "storage_bucket": "ids-dev-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646675114354:android:d600ad20c8e2825cd615eb",
+        "android_client_info": {
+          "package_name": "com.idsmobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646675114354-a4q3t6p9pbhvp43jfil7dtccq7beej3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC1Xhjn1WUFw6CAp5VniOOoK_baZUcq10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646675114354-a4q3t6p9pbhvp43jfil7dtccq7beej3t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "646675114354-bt4cn7oh6qv8hmkupvn34mf67jq0321q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bosch.tt.easyair"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

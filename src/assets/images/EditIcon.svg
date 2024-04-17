@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Edit_Icon" data-name="Edit Icon" transform="translate(-93 -169)">
+    <g id="Rectangle_3085" data-name="Rectangle 3085" opacity="0">
+      <rect id="Rectangle_3085-2" data-name="Rectangle 3085" width="32" height="32" transform="translate(93 169)" fill="#fff"/>
+      <path id="Rectangle_3085_-_Outline" data-name="Rectangle 3085 - Outline" d="M1,1V31H31V1H1M0,0H32V32H0Z" transform="translate(93 169)" fill="#707070"/>
+    </g>
+    <path id="edit" d="M16,54.739h4.969v.994H16Zm19.237-8.777-.351.351,0,0L26.689,54.5l-4.912,1.228,1.228-4.912,8.543-8.548a2.609,2.609,0,1,1,3.689,3.69Zm-8.8,7.391L33.187,46.6l-2.274-2.284-6.757,6.757,2.279,2.279Zm-3.292,1.014,2.32-.58-1.74-1.74-.58,2.32ZM34.534,42.975a1.617,1.617,0,0,0-2.2-.075l-.714.714L33.89,45.9l.719-.719A1.617,1.617,0,0,0,34.534,42.975Z" transform="translate(83 136.49)" fill="#fff"/>
+  </g>
+</svg>

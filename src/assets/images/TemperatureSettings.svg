@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" viewBox="0 0 76 76">
+  <g id="Temperature_-_Colored" data-name="Temperature - Colored" transform="translate(-150 -104)">
+    <rect id="Rectangle_3037" data-name="Rectangle 3037" width="76" height="76" transform="translate(150 104)" fill="#fff" opacity="0"/>
+    <path id="temperature-Colored" d="M83.2,73.333V42.6H79.4V73.333a5.7,5.7,0,1,0,3.8,0ZM81.3,80.6a1.9,1.9,0,1,1,1.9-1.9A1.9,1.9,0,0,1,81.3,80.6Zm9.5-55.1a9.5,9.5,0,1,0-19,0V69.395a13.3,13.3,0,1,0,19,0ZM81.3,88.2a9.5,9.5,0,0,1-6.333-16.579l.633-.566V25.5a5.7,5.7,0,1,1,11.4,0V71.054l.633.566A9.5,9.5,0,0,1,81.3,88.2Zm20.9-64.6v3.8H94.6V23.6Zm-7.6,9.5h7.6v3.8H94.6Zm0,9.5h7.6v3.8H94.6Zm0,9.5h7.6v3.8H94.6Zm0,9.5h7.6v3.8H94.6Z" transform="translate(102 88)" fill="#00a8af"/>
+  </g>
+</svg>

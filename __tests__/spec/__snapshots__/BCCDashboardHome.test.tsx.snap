@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BCC Dashboard Home screen Component to be rendered 1`] = `
+<View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+        },
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      numberOfLines={0}
+      style={
+        Array [
+          Object {
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#94989C",
+          },
+          Object {
+            "fontSize": 18,
+            "lineHeight": 27,
+          },
+          Object {
+            "fontFamily": "BoschSans-Bold",
+          },
+          Object {
+            "left": NaN,
+            "position": "absolute",
+            "top": NaN,
+          },
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;

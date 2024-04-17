@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal Component Component to be rendered 1`] = `
+<Modal
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  transparent={false}
+  visible={true}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "stretch",
+          "flex": 1,
+          "justifyContent": "center",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "stretch",
+            "backgroundColor": "white",
+            "elevation": 5,
+            "margin": 20,
+            "paddingBottom": 35,
+            "paddingHorizontal": 10,
+            "paddingTop": 16,
+            "shadowColor": "#000",
+            "shadowOffset": Object {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 4,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+          }
+        }
+      />
+    </View>
+  </View>
+</Modal>
+`;

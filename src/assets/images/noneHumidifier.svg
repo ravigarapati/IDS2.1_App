@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_6098" data-name="Group 6098" transform="translate(1757 -4912)">
+    <g id="Group_6097" data-name="Group 6097" transform="translate(-1797 4688)">
+      <rect id="Rectangle_2785" data-name="Rectangle 2785" width="24" height="24" transform="translate(40 224)" fill="#fff"/>
+    </g>
+    <g id="Group_6095" data-name="Group 6095" transform="translate(-2763 -193.046)">
+      <g id="Group_6093" data-name="Group 6093" transform="translate(-195 -85)">
+        <path id="drop-ice" d="M48.95,18.939l-.414-.382-.414.382C47.791,19.245,40,26.523,40,34.021a8.536,8.536,0,0,0,17.073,0c0-7.5-7.791-14.776-8.123-15.082Zm-.414,22.4a7.325,7.325,0,0,1-7.317-7.317c0-6.014,5.713-12.173,7.317-13.782,1.6,1.609,7.317,7.761,7.317,13.782A7.325,7.325,0,0,1,48.536,41.338Z" transform="translate(1164 5171.489)"/>
+        <path id="drop-ice-2" data-name="drop-ice" d="M8.531,2.815l-3.656,2.1h0V9.146H3.656V5.629L.61,7.388,0,6.332,3.656,4.292h0V0H4.875V3.517L7.921,1.759l.61,1.056Z" transform="translate(1206.556 5203.376) rotate(-30)"/>
+      </g>
+    </g>
+  </g>
+</svg>

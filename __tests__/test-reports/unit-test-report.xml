@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="94" failures="0" errors="0" time="9.609">
+  <testsuite name="Modal Component" errors="0" failures="0" skipped="0" timestamp="2023-09-04T18:19:47" time="6.235" tests="2">
+    <testcase classname="Modal Component Component to be defined" name="Modal Component Component to be defined" time="0.026">
+    </testcase>
+    <testcase classname="Modal Component Component to be rendered" name="Modal Component Component to be rendered" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Edit Location screen" errors="0" failures="0" skipped="0" timestamp="2023-09-04T18:19:47" time="6.296" tests="4">
+    <testcase classname="Edit Location screen Component to be defined" name="Edit Location screen Component to be defined" time="0.014">
+    </testcase>
+    <testcase classname="Edit Location screen Component to be rendered" name="Edit Location screen Component to be rendered" time="0.003">
+    </testcase>
+    <testcase classname="Edit Location screen Click on cancel button" name="Edit Location screen Click on cancel button" time="0.004">
+    </testcase>
+    <testcase classname="Edit Location screen Input new location" name="Edit Location screen Input new location" time="0.017">
+    </testcase>
+  </testsuite>
+  <testsuite name="BCC Dashboard scheudle screen" errors="0" failures="0" skipped="0" timestamp="2023-09-04T18:19:47" time="6.423" tests="9">
+    <testcase classname="BCC Dashboard scheudle screen Component to be defined" name="BCC Dashboard scheudle screen Component to be defined" time="0.009">
+    </testcase>
+    <testcase classname="BCC Dashboard scheudle screen Component to be rendered" name="BCC Dashboard scheudle screen Component to be rendered" time="0.003">
+    </testcase>
+    <testcase classname="BCC Dashboard scheudle screen click on add button" name="BCC Dashboard scheudle screen click on add button" time="0.007">
+    </testcase>
+    <testcase classname="BCC Dashboard scheudle screen click on cancel button" name="BCC Dashboard scheudle screen click on cancel button" time="0.003">
+    </testcase>
+    <testcase classname="BCC Dashboard scheudle screen Activate Schedule" name="BCC Dashboard scheudle screen Activate Schedule" time="0.072">
+    </testcase>
+    <testcase classname="BCC Dashboard scheudle screen Set device to No Schedule" name="BCC Dashboard scheudle screen Set device to No Schedule" time="0.003">
+    </testcase>
+    <testcase classname="BCC Dashboard scheudle screen Add name for new schedule" name="BCC Dashboard scheudle screen Add name for new schedule" time="0.001">
+    </testcase>
+    <testcase classname="BCC Dashboard scheudle screen Adding a new schedule" name="BCC Dashboard scheudle screen Adding a new schedule" time="0.016">
+    </testcase>
+    <testcase classname="BCC Dashboard scheudle screen real action" name="BCC Dashboard scheudle screen real action" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="AddBcc Screen" errors="0" failures="0" skipped="0" timestamp="2023-09-04T18:19:47" time="6.44" tests="2">
+    <testcase classname="AddBcc Screen Component to be defined" name="AddBcc Screen Component to be defined" time="0.015">
+    </testcase>
+    <testcase classname="AddBcc Screen Component to be rendered" name="AddBcc Screen Component to be rendered" time="0.124">
+    </testcase>
+  </testsuite>
+  <testsuite name="BCC Dashboard settings screen (BCC100)" errors="0" failures="0" skipped="0" timestamp="2023-09-04T18:19:47" time="6.525" tests="13">
+    <testcase classname="BCC Dashboard settings screen (BCC100) Component to be defined" name="BCC Dashboard settings screen (BCC100) Component to be defined" time="0.03">
+    </testcase>
+    <testcase classname="BCC Dashboard settings screen (BCC100) Component to be rendered" name="BCC Dashboard settings screen (BCC100) Component to be rendered" time="0.074">
+    </testcase>
+    <testcase classname="BCC Dashboard settings screen (BCC100) Go to Temperature screen (BCC100)" name="BCC Dashboard settings screen (BCC100) Go to Temperature screen (BCC100)" time="0.008">
+    </testcase>
+    <testcase classname="BCC Dashboard settings screen (BCC100) Go to Date Time screen (BCC100)" name="BCC Dashboard settings screen (BCC100) Go to Date Time screen (BCC100)" time="0.006">
+    </testcase>
+    <testcase classname="BCC Dashboard settings screen (BCC100) Go to Location screen (BCC100)" name="BCC Dashboard settings screen (BCC100) Go to Location screen (BCC100)" time="0.004">
+    </testcase>
+    <testcase classname="BCC Dashboard settings screen (BCC100) Go to Lock screen (BCC100)" name="BCC Dashboard settings screen (BCC100) Go to Lock screen (BCC100)" time="0.005">
+    </testcase>
+    <testcase classname="BCC Dashboard settings screen (BCC100) Go to Appliance Pairing screen (BCC100)" name="BCC Dashboard settings screen (BCC100) Go to Appliance Pairing screen (BCC100)" time="0.044">
+    </testcase>
+    <testcase classname="BCC Dashboard settings screen (BCC100) Go to temperature screen (BCC50)" name="BCC Dashboard settings screen (BCC100) Go to temperature screen (BCC50)" time="0.032">
+    </testcase>
+    <testcase classname="BCC Dashboard settings screen (BCC100) Go to Date Time screen (BCC50)" name="BCC Dashboard settings screen (BCC100) Go to Date Time screen (BCC50)" time="0.012">
+    </testcase>
+    <testcase classname="BCC Dashboard settings screen (BCC100) Go to location screen (BCC50)" name="BCC Dashboard settings screen (BCC100) Go to location screen (BCC50)" time="0.009">
+    </testcase>
+    <testcase classname="BCC Dashboard settings screen (BCC100) Go to Screen config screen (BCC50)" name="BCC Dashboard settings screen (BCC100) Go to Screen config screen (BCC50)" time="0.005">
+    </testcase>
+    <testcase classname="BCC Dashboard settings screen (BCC100) Go to Runtime screen (BCC50)" name="BCC Dashboard settings screen (BCC100) Go to Runtime screen (BCC50)" time="0.009">
+    </testcase>
+    <testcase classname="BCC Dashboard settings screen (BCC100) Go to Advanced Settings screen (BCC50)" name="BCC Dashboard settings screen (BCC100) Go to Advanced Settings screen (BCC50)" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="Edit Device screen" errors="0" failures="0" skipped="0" timestamp="2023-09-04T18:19:47" time="6.476" tests="4">
+    <testcase classname="Edit Device screen Component to be defined" name="Edit Device screen Component to be defined" time="0.031">
+    </testcase>
+    <testcase classname="Edit Device screen Component to be rendered" name="Edit Device screen Component to be rendered" time="0.016">
+    </testcase>
+    <testcase classname="Edit Device screen Click on cancel button" name="Edit Device screen Click on cancel button" time="0.015">
+    </testcase>
+    <testcase classname="Edit Device screen Edit the device" name="Edit Device screen Edit the device" time="0.125">
+    </testcase>
+  </testsuite>
+  <testsuite name="Mode Selection screen" errors="0" failures="0" skipped="0" timestamp="2023-09-04T18:19:47" time="6.656" tests="7">
+    <testcase classname="Mode Selection screen renders correctly" name="Mode Selection screen renders correctly" time="0.114">
+    </testcase>
+    <testcase classname="Mode Selection screen Initialize without Em heat" name="Mode Selection screen Initialize without Em heat" time="0.066">
+    </testcase>
+    <testcase classname="Mode Selection screen Initialize including Em heat option disabled" name="Mode Selection screen Initialize including Em heat option disabled" time="0.082">
+    </testcase>
+    <testcase classname="Mode Selection screen Initialize including Em heat option enabled" name="Mode Selection screen Initialize including Em heat option enabled" time="0.04">
+    </testcase>
+    <testcase classname="Mode Selection screen Submit Mode selection" name="Mode Selection screen Submit Mode selection" time="0.02">
+    </testcase>
+    <testcase classname="Mode Selection screen Clicked on cancel button" name="Mode Selection screen Clicked on cancel button" time="0.011">
+    </testcase>
+    <testcase classname="Mode Selection screen Clicked on back button" name="Mode Selection screen Clicked on back button" time="0.024">
+    </testcase>
+  </testsuite>
+  <testsuite name="Add Period screen" errors="0" failures="0" skipped="0" timestamp="2023-09-04T18:19:47" time="6.865" tests="8">
+    <testcase classname="Add Period screen Component to be defined" name="Add Period screen Component to be defined" time="0.085">
+    </testcase>
+    <testcase classname="Add Period screen Component to be rendered on fahrenheit" name="Add Period screen Component to be rendered on fahrenheit" time="0.011">
+    </testcase>
+    <testcase classname="Add Period screen Component to be rendered on 12 hour format" name="Add Period screen Component to be rendered on 12 hour format" time="0.014">
+    </testcase>
+    <testcase classname="Add Period screen Component to be rendered on celcius" name="Add Period screen Component to be rendered on celcius" time="0.031">
+    </testcase>
+    <testcase classname="Add Period screen Going back" name="Add Period screen Going back" time="0.006">
+    </testcase>
+    <testcase classname="Add Period screen submit Button" name="Add Period screen submit Button" time="0.334">
+    </testcase>
+    <testcase classname="Add Period screen submit Button (edit)" name="Add Period screen submit Button (edit)" time="0.018">
+    </testcase>
+    <testcase classname="Add Period screen submit Button (edit with current over 720 minutes)" name="Add Period screen submit Button (edit with current over 720 minutes)" time="0.027">
+    </testcase>
+  </testsuite>
+  <testsuite name="BCC Temperature device screen" errors="0" failures="0" skipped="0" timestamp="2023-09-04T18:19:47" time="6.975" tests="7">
+    <testcase classname="BCC Temperature device screen Component to be defined" name="BCC Temperature device screen Component to be defined" time="0.052">
+    </testcase>
+    <testcase classname="BCC Temperature device screen Component to be rendered" name="BCC Temperature device screen Component to be rendered" time="0.168">
+    </testcase>
+    <testcase classname="BCC Temperature device screen Change Temperature" name="BCC Temperature device screen Change Temperature" time="0.069">
+    </testcase>
+    <testcase classname="BCC Temperature device screen Enable auto option" name="BCC Temperature device screen Enable auto option" time="0.236">
+    </testcase>
+    <testcase classname="BCC Temperature device screen Enable alert option" name="BCC Temperature device screen Enable alert option" time="0.025">
+    </testcase>
+    <testcase classname="BCC Temperature device screen Change low temp" name="BCC Temperature device screen Change low temp" time="0.063">
+    </testcase>
+    <testcase classname="BCC Temperature device screen Change high temp" name="BCC Temperature device screen Change high temp" time="0.074">
+    </testcase>
+  </testsuite>
+  <testsuite name="Device Added Screen" errors="0" failures="0" skipped="0" timestamp="2023-09-04T18:19:54" time="0.233" tests="4">
+    <testcase classname="Device Added Screen Component to be defined" name="Device Added Screen Component to be defined" time="0.016">
+    </testcase>
+    <testcase classname="Device Added Screen Component to be rendered" name="Device Added Screen Component to be rendered" time="0.008">
+    </testcase>
+    <testcase classname="Device Added Screen Cancel button clicked" name="Device Added Screen Cancel button clicked" time="0.004">
+    </testcase>
+    <testcase classname="Device Added Screen Submit button clicked" name="Device Added Screen Submit button clicked" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Thermostat display component" errors="0" failures="0" skipped="0" timestamp="2023-09-04T18:19:55" time="0.271" tests="2">
+    <testcase classname="Thermostat display component Component to be defined" name="Thermostat display component Component to be defined" time="0.086">
+    </testcase>
+    <testcase classname="Thermostat display component Component to be rendered" name="Thermostat display component Component to be rendered" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="Tile to display appliances component" errors="0" failures="0" skipped="0" timestamp="2023-09-04T18:19:54" time="0.598" tests="1">
+    <testcase classname="Tile to display appliances component Component to be defined" name="Tile to display appliances component Component to be defined" time="0.031">
+    </testcase>
+  </testsuite>
+  <testsuite name="Location Screen (BCC Settings)" errors="0" failures="0" skipped="0" timestamp="2023-09-04T18:19:54" time="1.19" tests="1">
+    <testcase classname="Location Screen (BCC Settings) Component to be defined" name="Location Screen (BCC Settings) Component to be defined" time="0.037">
+    </testcase>
+  </testsuite>
+  <testsuite name="Dropdown Component" errors="0" failures="0" skipped="0" timestamp="2023-09-04T18:19:54" time="1.084" tests="1">
+    <testcase classname="Dropdown Component renders correctly" name="Dropdown Component renders correctly" time="0.025">
+    </testcase>
+  </testsuite>
+  <testsuite name="BCC Device information screen" errors="0" failures="0" skipped="0" timestamp="2023-09-04T18:19:54" time="1.051" tests="2">
+    <testcase classname="BCC Device information screen Component to be defined" name="BCC Device information screen Component to be defined" time="0.012">
+    </testcase>
+    <testcase classname="BCC Device information screen Component to be rendered" name="BCC Device information screen Component to be rendered" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="Radiobutton Component" errors="0" failures="0" skipped="0" timestamp="2023-09-04T18:19:55" time="0.22" tests="2">
+    <testcase classname="Radiobutton Component Component to be defined" name="Radiobutton Component Component to be defined" time="0.055">
+    </testcase>
+    <testcase classname="Radiobutton Component Component to be rendered" name="Radiobutton Component Component to be rendered" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Schedule option for Schedule screen" errors="0" failures="0" skipped="0" timestamp="2023-09-04T18:19:55" time="0.184" tests="2">
+    <testcase classname="Schedule option for Schedule screen Component to be defined" name="Schedule option for Schedule screen Component to be defined" time="0.028">
+    </testcase>
+    <testcase classname="Schedule option for Schedule screen Component to be rendered" name="Schedule option for Schedule screen Component to be rendered" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="BCC Lock Settings screen" errors="0" failures="0" skipped="0" timestamp="2023-09-04T18:19:54" time="1.472" tests="4">
+    <testcase classname="BCC Lock Settings screen Component to be defined" name="BCC Lock Settings screen Component to be defined" time="0.029">
+    </testcase>
+    <testcase classname="BCC Lock Settings screen Component to be rendered" name="BCC Lock Settings screen Component to be rendered" time="0.008">
+    </testcase>
+    <testcase classname="BCC Lock Settings screen Lock Device" name="BCC Lock Settings screen Lock Device" time="0.076">
+    </testcase>
+    <testcase classname="BCC Lock Settings screen Unlock Device" name="BCC Lock Settings screen Unlock Device" time="0.02">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2023-09-04T18:19:55" time="0.089" tests="1">
+    <testcase classname=" forEach mock function" name=" forEach mock function" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Weather forecast Component" errors="0" failures="0" skipped="0" timestamp="2023-09-04T18:19:54" time="1.114" tests="2">
+    <testcase classname="Weather forecast Component Component to be defined" name="Weather forecast Component Component to be defined" time="0.007">
+    </testcase>
+    <testcase classname="Weather forecast Component Component to be rendered" name="Weather forecast Component Component to be rendered" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="BCC Dashboard Home screen" errors="0" failures="0" skipped="0" timestamp="2023-09-04T18:19:54" time="1.284" tests="10">
+    <testcase classname="BCC Dashboard Home screen Component to be defined" name="BCC Dashboard Home screen Component to be defined" time="0.01">
+    </testcase>
+    <testcase classname="BCC Dashboard Home screen Component to be rendered" name="BCC Dashboard Home screen Component to be rendered" time="0.078">
+    </testcase>
+    <testcase classname="BCC Dashboard Home screen Cancel hold schedule under heat mode, mode equal to &quot;0&quot;" name="BCC Dashboard Home screen Cancel hold schedule under heat mode, mode equal to &quot;0&quot;" time="0.007">
+    </testcase>
+    <testcase classname="BCC Dashboard Home screen Cancel hold schedule under cool mode" name="BCC Dashboard Home screen Cancel hold schedule under cool mode" time="0.004">
+    </testcase>
+    <testcase classname="BCC Dashboard Home screen Cancel hold schedule under auto mode" name="BCC Dashboard Home screen Cancel hold schedule under auto mode" time="0.004">
+    </testcase>
+    <testcase classname="BCC Dashboard Home screen Unlock thermostat from lock button on dashboard" name="BCC Dashboard Home screen Unlock thermostat from lock button on dashboard" time="0.018">
+    </testcase>
+    <testcase classname="BCC Dashboard Home screen Decrease temp by minus button" name="BCC Dashboard Home screen Decrease temp by minus button" time="0.005">
+    </testcase>
+    <testcase classname="BCC Dashboard Home screen Increate temp by plus button" name="BCC Dashboard Home screen Increate temp by plus button" time="0.004">
+    </testcase>
+    <testcase classname="BCC Dashboard Home screen Cancel schedule on hold = 2" name="BCC Dashboard Home screen Cancel schedule on hold = 2" time="0.004">
+    </testcase>
+    <testcase classname="BCC Dashboard Home screen Click on hold button (equal to 1)" name="BCC Dashboard Home screen Click on hold button (equal to 1)" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="Schedule Tile on schedule screen" errors="0" failures="0" skipped="0" timestamp="2023-09-04T18:19:55" time="0.147" tests="2">
+    <testcase classname="Schedule Tile on schedule screen Component to be defined" name="Schedule Tile on schedule screen Component to be defined" time="0.023">
+    </testcase>
+    <testcase classname="Schedule Tile on schedule screen Component to be rendered" name="Schedule Tile on schedule screen Component to be rendered" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="Add Another Device screen" errors="0" failures="0" skipped="0" timestamp="2023-09-04T18:19:54" time="1.337" tests="4">
+    <testcase classname="Add Another Device screen Component to be defined" name="Add Another Device screen Component to be defined" time="0.011">
+    </testcase>
+    <testcase classname="Add Another Device screen Component to be rendered" name="Add Another Device screen Component to be rendered" time="0.003">
+    </testcase>
+    <testcase classname="Add Another Device screen Click on add Another button" name="Add Another Device screen Click on add Another button" time="0.004">
+    </testcase>
+    <testcase classname="Add Another Device screen Click on cancel button" name="Add Another Device screen Click on cancel button" time="0.002">
+    </testcase>
+  </testsuite>
+</testsuites>

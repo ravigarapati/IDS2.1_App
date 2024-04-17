@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_6406" data-name="Group 6406" transform="translate(-16 -356)">
+    <g id="Group_6333" data-name="Group 6333" transform="translate(16 356)">
+      <g id="Group_6332" data-name="Group 6332" transform="translate(0 0)">
+        <rect id="Rectangle_2798" data-name="Rectangle 2798" width="24" height="24" fill="#fff"/>
+      </g>
+      <path id="device-thermostat-BCC50-72" d="M34.2,41.325a6.508,6.508,0,1,0-6.508,6.508A6.516,6.516,0,0,0,34.2,41.325Zm-1.17,0a5.338,5.338,0,1,1-5.338-5.338,5.344,5.344,0,0,1,5.338,5.338Zm6.535,6.516V34.809a2.992,2.992,0,0,0-2.988-2.988H18.809a2.992,2.992,0,0,0-2.988,2.988V47.84a2.992,2.992,0,0,0,2.988,2.988h17.77a2.992,2.992,0,0,0,2.988-2.988ZM36.579,33.059a1.752,1.752,0,0,1,1.75,1.75V47.84a1.752,1.752,0,0,1-1.75,1.75H18.809a1.752,1.752,0,0,1-1.75-1.75V34.809a1.752,1.752,0,0,1,1.75-1.75Z" transform="translate(-15.821 -29.321)" fill="#0f0f0f"/>
+    </g>
+    <path id="info-i" d="M36.444,21.305a.543.543,0,1,1-.543-.543A.548.548,0,0,1,36.444,21.305ZM35.5,22.478h.944v5.211H35.5Z" transform="translate(-7.902 343.774)" fill="#0f0f0f"/>
+  </g>
+</svg>

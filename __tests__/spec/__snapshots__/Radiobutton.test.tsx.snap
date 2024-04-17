@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radiobutton Component Component to be rendered 1`] = `
+<View
+  accessible={true}
+  onAccessibilityTap={[Function]}
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID=""
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderRadius": 12,
+            "height": 24,
+            "justifyContent": "center",
+            "width": 24,
+          },
+          Object {
+            "backgroundColor": "rgba(0, 73, 117, 1)",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "blue",
+            "borderRadius": 12,
+            "height": 15,
+            "width": 15,
+          }
+        }
+      />
+    </View>
+  </View>
+  <Text
+    accessible={true}
+    numberOfLines={0}
+    style={
+      Array [
+        Object {
+          "textAlign": "center",
+        },
+        Object {
+          "color": "#000000",
+        },
+        Object {
+          "fontSize": 16,
+          "lineHeight": 24,
+        },
+        Object {
+          "fontFamily": "BoschSans-Regular",
+        },
+        Object {},
+      ]
+    }
+  >
+      
+  </Text>
+</View>
+`;

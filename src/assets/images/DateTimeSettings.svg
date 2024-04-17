@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" viewBox="0 0 76 76">
+  <g id="Date_Time_-_Colored" data-name="Date Time - Colored" transform="translate(-150 -104)">
+    <rect id="Rectangle_3040" data-name="Rectangle 3040" width="76" height="76" transform="translate(150 104)" fill="#fff" opacity="0"/>
+    <g id="Date-colored" transform="translate(129 -207)">
+      <g id="Group_5629" data-name="Group 5629" transform="translate(0 -12)">
+        <path id="calendar" d="M92,40.9h-.009V25.709H73V20H69.2v5.709H38.8V20H35v5.709H16.009V40.9H16v3.8h.009V86.491H91.991V44.7H92ZM19.791,29.491H35V33.3h3.8V29.491H69.2V33.3H73V29.491H88.209V40.9H19.791ZM88.209,82.709H19.791V44.7H88.209Z" transform="translate(5 308)" fill="#00a8af"/>
+      </g>
+    </g>
+  </g>
+</svg>

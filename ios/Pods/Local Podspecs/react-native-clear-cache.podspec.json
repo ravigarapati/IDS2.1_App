@@ -1,0 +1,26 @@
+{
+  "name": "react-native-clear-cache",
+  "version": "1.0.3",
+  "summary": "TODO",
+  "description": "react-native-clear-cache",
+  "homepage": "https://github.com/github_account/react-native-clear-cache",
+  "license": "MIT",
+  "authors": {
+    "Your Name": "yourname@email.com"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "tvos": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/github_account/react-native-clear-cache.git",
+    "tag": "1.0.3"
+  },
+  "source_files": "ios/**/*.{h,m,swift}",
+  "requires_arc": true,
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

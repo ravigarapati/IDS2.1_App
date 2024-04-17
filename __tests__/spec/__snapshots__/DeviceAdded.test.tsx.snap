@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Device Added Screen Component to be rendered 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "marginHorizontal": 40,
+      }
+    }
+  >
+    <View>
+      <Text
+        accessible={true}
+        numberOfLines={0}
+        style={
+          Array [
+            Object {
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "fontSize": 21,
+              "lineHeight": 31.5,
+            },
+            Object {
+              "fontFamily": "BoschSans-Medium",
+            },
+            Object {
+              "marginTop": 66.7,
+            },
+          ]
+        }
+      >
+         Thermostat
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 93.38000000000001,
+        }
+      }
+    >
+      <svg
+        data-file-name="SvgSuccess"
+      />
+    </View>
+    <View>
+      <Text
+        accessible={true}
+        numberOfLines={0}
+        style={
+          Array [
+            Object {
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "BoschSans-Regular",
+            },
+            Object {
+              "marginTop": 40.019999999999996,
+            },
+          ]
+        }
+      >
+        Thermostat successfully
+registered to the user account
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "flex-end",
+        "marginBottom": 20,
+      }
+    }
+  >
+    <View>
+      <View
+        accessibilityElementsHidden={false}
+        accessibilityRole="button"
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        focusable={true}
+        importantForAccessibility="auto"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "marginVertical": 5,
+              "paddingVertical": 15,
+            },
+            Object {},
+            Object {
+              "backgroundColor": "#004975",
+            },
+            Object {},
+            Object {
+              "borderColor": "#004975",
+              "borderWidth": 1,
+            },
+          ]
+        }
+        testID="submitButton"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            numberOfLines={0}
+            style={
+              Array [
+                Object {
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#FFFFFF",
+                },
+                Object {
+                  "fontSize": 16,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "fontFamily": "BoschSans-Regular",
+                },
+                Object {},
+              ]
+            }
+          >
+            Next
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

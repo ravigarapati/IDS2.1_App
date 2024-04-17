@@ -1,0 +1,13 @@
+export const CURRENT_USER = 'CURRENT_USER';
+export const LOGOUT = 'LOGOUT';
+export const CURRENT_STEP = 'CURRENT_STEP';
+export const UPDATE_CURRENT_USER = 'UPDATE_CURRENT_USER';
+export const SHOW_LOADING = 'SHOW_LOADING';
+export const TERMS_AND_CONDITIONS = 'TERMS_AND_CONDITIONS';
+export const LATEST_VERSION = 'LATEST_VERSION';
+export const SET_STEP_TITLES = 'SET_STEP_TITLES';
+export const SET_USER_ROLE = 'SET_USER_ROLE';
+export const SET_SHOW_ROLE = 'SET_SHOW_ROLE';
+export const SET_USER_NAME = 'SET_USER_NAME';
+export const SET_USER_ADDRESS = 'SET_USER_ADDRESS';
+export const RESET_USER = 'RESET_USER';

@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Edit Location screen Component to be rendered 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/images/header_ribbon.png",
+      }
+    }
+    style={
+      Object {
+        "height": 8,
+        "width": "100%",
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "flex": 1,
+        "justifyContent": "space-between",
+        "paddingHorizontal": 15,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      >
+        <CustomInputText
+          disableCache={false}
+          onChange={[Function]}
+          testID="location"
+        />
+      </View>
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/search.png",
+          }
+        }
+        style={
+          Object {
+            "alignSelf": "center",
+            "marginLeft": "-6%",
+          }
+        }
+      />
+    </View>
+    <View>
+      <Button
+        disabled={true}
+        onPress={[Function]}
+        testID="submit"
+        text="Save"
+        type="primary"
+      />
+      <Button
+        onPress={[Function]}
+        testID="cancel"
+        text="Cancel"
+        type="secondary"
+      />
+    </View>
+  </View>
+</View>
+`;

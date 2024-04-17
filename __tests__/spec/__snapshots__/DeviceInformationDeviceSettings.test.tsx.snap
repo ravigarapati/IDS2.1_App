@@ -1,0 +1,461 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BCC Device information screen Component to be rendered 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffff",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffff",
+          "flex": 0.15,
+          "flexDirection": "column",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "justifyContent": "center",
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 24,
+              },
+              Object {
+                "marginHorizontal": 10,
+              },
+              Object {
+                "fontFamily": "Bosch-Icon",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "flex": 1,
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "marginLeft": 24,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        numberOfLines={0}
+        style={
+          Array [
+            Object {
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "fontSize": 21,
+              "lineHeight": 31.5,
+            },
+            Object {
+              "fontFamily": "BoschSans-Medium",
+            },
+            Object {
+              "marginVertical": 8,
+            },
+          ]
+        }
+      >
+        Device Information
+      </Text>
+    </View>
+  </View>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/images/header_ribbon.png",
+      }
+    }
+    style={
+      Object {
+        "height": 8,
+        "width": "100%",
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "marginTop": 32,
+      }
+    }
+  >
+    <svg
+      data-file-name="SvgDeviceInfoSettings"
+      fill="#000"
+    />
+  </View>
+  <Text
+    accessibilityLabel="View information about your device"
+    accessible={true}
+    numberOfLines={0}
+    style={
+      Array [
+        Object {
+          "textAlign": "center",
+        },
+        Object {
+          "color": "#000000",
+        },
+        Object {
+          "fontSize": 16,
+          "lineHeight": 24,
+        },
+        Object {
+          "fontFamily": "BoschSans-Regular",
+        },
+        Object {
+          "marginBottom": 32,
+          "marginTop": 23,
+        },
+      ]
+    }
+  >
+    View information about
+your device
+  </Text>
+  <Text
+    accessibilityLabel="Information about the device, model, software version, hardware version and mac id."
+    accessible={true}
+    numberOfLines={0}
+    style={
+      Array [
+        Object {
+          "textAlign": "left",
+        },
+        Object {
+          "color": "#000000",
+        },
+        Object {
+          "fontSize": 16,
+          "lineHeight": 24,
+        },
+        Object {
+          "fontFamily": "BoschSans-Regular",
+        },
+        Object {
+          "backgroundColor": "#EEEEEE",
+          "paddingLeft": 17,
+          "paddingVertical": 13,
+        },
+      ]
+    }
+  >
+    Device
+  </Text>
+  <View
+    style={
+      Object {
+        "marginTop": 24,
+      }
+    }
+  >
+    <View
+      accessibilityLabel="Device Modal: BCC101"
+      accessible={true}
+      style={
+        Object {
+          "flexDirection": "row",
+          "marginBottom": 15,
+          "marginLeft": 17,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        numberOfLines={0}
+        style={
+          Array [
+            Object {
+              "textAlign": "left",
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "BoschSans-Regular",
+            },
+            Object {
+              "width": "50%",
+            },
+          ]
+        }
+      >
+        Model:
+      </Text>
+      <Text
+        accessible={true}
+        numberOfLines={0}
+        style={
+          Array [
+            Object {
+              "textAlign": "left",
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "BoschSans-Regular",
+            },
+            Object {
+              "width": "50%",
+            },
+          ]
+        }
+      >
+        BCC101
+      </Text>
+    </View>
+    <View
+      accessibilityLabel="Software version: undefined"
+      accessible={true}
+      style={
+        Object {
+          "flexDirection": "row",
+          "marginBottom": 15,
+          "marginLeft": 17,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        numberOfLines={0}
+        style={
+          Array [
+            Object {
+              "textAlign": "left",
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "BoschSans-Regular",
+            },
+            Object {
+              "width": "50%",
+            },
+          ]
+        }
+      >
+        SW Version:
+      </Text>
+      <Text
+        accessible={true}
+        numberOfLines={0}
+        style={
+          Array [
+            Object {
+              "textAlign": "left",
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "BoschSans-Regular",
+            },
+            Object {
+              "width": "50%",
+            },
+          ]
+        }
+      >
+        Text
+      </Text>
+    </View>
+    <View
+      accessibilityLabel="Hardware version: undefined"
+      accessible={true}
+      style={
+        Object {
+          "flexDirection": "row",
+          "marginBottom": 15,
+          "marginLeft": 17,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        numberOfLines={0}
+        style={
+          Array [
+            Object {
+              "textAlign": "left",
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "BoschSans-Regular",
+            },
+            Object {
+              "width": "50%",
+            },
+          ]
+        }
+      >
+        HD Version:
+      </Text>
+      <Text
+        accessible={true}
+        numberOfLines={0}
+        style={
+          Array [
+            Object {
+              "textAlign": "left",
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "BoschSans-Regular",
+            },
+            Object {
+              "width": "50%",
+            },
+          ]
+        }
+      >
+        Text
+      </Text>
+    </View>
+    <View
+      accessibilityLabel="MAC ID: undefined"
+      accessible={true}
+      style={
+        Object {
+          "flexDirection": "row",
+          "marginBottom": 15,
+          "marginLeft": 17,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        numberOfLines={0}
+        style={
+          Array [
+            Object {
+              "textAlign": "left",
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "BoschSans-Regular",
+            },
+            Object {
+              "width": "50%",
+            },
+          ]
+        }
+      >
+        MAC ID:
+      </Text>
+      <Text
+        accessible={true}
+        numberOfLines={0}
+        style={
+          Array [
+            Object {
+              "textAlign": "left",
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "BoschSans-Regular",
+            },
+            Object {
+              "width": "50%",
+            },
+          ]
+        }
+      >
+        Text
+      </Text>
+    </View>
+  </View>
+</View>
+`;

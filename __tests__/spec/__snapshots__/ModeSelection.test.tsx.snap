@@ -1,0 +1,960 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mode Selection screen renders correctly 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "backgroundColor": "white",
+        "flex": 1,
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#ffff",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ffff",
+                "flex": 0.15,
+                "flexDirection": "column",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <RNGestureHandlerButton
+              collapsable={false}
+              delayLongPress={600}
+              enabled={true}
+              exclusive={true}
+              handlerTag={1}
+              handlerType="NativeViewGestureHandler"
+              onGestureEvent={[Function]}
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              onHandlerStateChange={[Function]}
+              rippleColor={0}
+              testID="backButton"
+              touchSoundDisabled={false}
+            >
+              <View
+                accessibilityHint="Activate to go back to the BCC Dashboard screen."
+                accessibilityLabel="back."
+                accessibilityRole="button"
+                accessible={true}
+                collapsable={false}
+                style={
+                  Object {
+                    "justifyContent": "center",
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  allowFontScaling={false}
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 24,
+                      },
+                      Object {
+                        "marginHorizontal": 10,
+                      },
+                      Object {
+                        "fontFamily": "Bosch-Icon",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      Object {},
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+            </RNGestureHandlerButton>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "flex": 1,
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "marginLeft": 24,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 21,
+                  "marginVertical": 10,
+                }
+              }
+            >
+              System
+            </Text>
+          </View>
+        </View>
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/assets/images/header_ribbon.png",
+            }
+          }
+          style={
+            Object {
+              "height": 8,
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        accessibilityActions={
+          Array [
+            Object {
+              "name": "activate",
+            },
+          ]
+        }
+        accessibilityElementsHidden={false}
+        accessibilityHint="Activate it to choose Heating as the thermostat mode. Current selected option:  "
+        accessibilityLabel="Heating"
+        accessibilityRole="radiogroup"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        importantForAccessibility="auto"
+        onAccessibilityAction={[Function]}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#BFC0C2",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "height": 60,
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "paddingHorizontal": 16,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 24,
+                  "resizeMode": "stretch",
+                  "width": 24,
+                }
+              }
+            >
+              <svg
+                data-file-name="SvgHeat"
+                fill="#000"
+              />
+            </View>
+          </View>
+          <Text
+            accessible={true}
+            numberOfLines={0}
+            style={
+              Array [
+                Object {
+                  "textAlign": "left",
+                },
+                Object {
+                  "color": "#000000",
+                },
+                Object {
+                  "fontSize": 18,
+                  "lineHeight": 27,
+                },
+                Object {
+                  "fontFamily": "BoschSans-Medium",
+                },
+                Object {},
+              ]
+            }
+          >
+            Heat
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onAccessibilityTap={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID=""
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "borderRadius": 12,
+                    "height": 24,
+                    "justifyContent": "center",
+                    "width": 24,
+                  },
+                  Object {
+                    "backgroundColor": "rgba(164, 171, 179, 1)",
+                  },
+                ]
+              }
+            />
+          </View>
+          <Text
+            accessible={true}
+            numberOfLines={0}
+            style={
+              Array [
+                Object {
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#000000",
+                },
+                Object {
+                  "fontSize": 16,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "fontFamily": "BoschSans-Regular",
+                },
+                Object {},
+              ]
+            }
+          >
+              
+          </Text>
+        </View>
+      </View>
+      <View
+        accessibilityActions={
+          Array [
+            Object {
+              "name": "activate",
+            },
+          ]
+        }
+        accessibilityElementsHidden={false}
+        accessibilityHint="Activate it to choose Cooling as the thermostat mode. Current selected option:  "
+        accessibilityLabel="Cooling"
+        accessibilityRole="radiogroup"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        importantForAccessibility="auto"
+        onAccessibilityAction={[Function]}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#BFC0C2",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "height": 60,
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "paddingHorizontal": 16,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 24,
+                  "resizeMode": "stretch",
+                  "width": 24,
+                }
+              }
+            >
+              <svg
+                data-file-name="SvgCool"
+              />
+            </View>
+          </View>
+          <Text
+            accessible={true}
+            numberOfLines={0}
+            style={
+              Array [
+                Object {
+                  "textAlign": "left",
+                },
+                Object {
+                  "color": "#000000",
+                },
+                Object {
+                  "fontSize": 18,
+                  "lineHeight": 27,
+                },
+                Object {
+                  "fontFamily": "BoschSans-Medium",
+                },
+                Object {},
+              ]
+            }
+          >
+            Cool
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onAccessibilityTap={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID=""
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "borderRadius": 12,
+                    "height": 24,
+                    "justifyContent": "center",
+                    "width": 24,
+                  },
+                  Object {
+                    "backgroundColor": "rgba(164, 171, 179, 1)",
+                  },
+                ]
+              }
+            />
+          </View>
+          <Text
+            accessible={true}
+            numberOfLines={0}
+            style={
+              Array [
+                Object {
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#000000",
+                },
+                Object {
+                  "fontSize": 16,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "fontFamily": "BoschSans-Regular",
+                },
+                Object {},
+              ]
+            }
+          >
+              
+          </Text>
+        </View>
+      </View>
+      <View
+        accessibilityActions={
+          Array [
+            Object {
+              "name": "activate",
+            },
+          ]
+        }
+        accessibilityElementsHidden={false}
+        accessibilityHint="Activate it to choose Auto as the thermostat mode. Current selected option:  "
+        accessibilityLabel="Auto"
+        accessibilityRole="radiogroup"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        importantForAccessibility="auto"
+        onAccessibilityAction={[Function]}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#BFC0C2",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "height": 60,
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "paddingHorizontal": 16,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 24,
+                  "resizeMode": "stretch",
+                  "width": 24,
+                }
+              }
+            >
+              <svg
+                data-file-name="SvgAuto"
+                fill="#000"
+              />
+            </View>
+          </View>
+          <Text
+            accessible={true}
+            numberOfLines={0}
+            style={
+              Array [
+                Object {
+                  "textAlign": "left",
+                },
+                Object {
+                  "color": "#000000",
+                },
+                Object {
+                  "fontSize": 18,
+                  "lineHeight": 27,
+                },
+                Object {
+                  "fontFamily": "BoschSans-Medium",
+                },
+                Object {},
+              ]
+            }
+          >
+            Auto
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onAccessibilityTap={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID=""
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "borderRadius": 12,
+                    "height": 24,
+                    "justifyContent": "center",
+                    "width": 24,
+                  },
+                  Object {
+                    "backgroundColor": "rgba(164, 171, 179, 1)",
+                  },
+                ]
+              }
+            />
+          </View>
+          <Text
+            accessible={true}
+            numberOfLines={0}
+            style={
+              Array [
+                Object {
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#000000",
+                },
+                Object {
+                  "fontSize": 16,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "fontFamily": "BoschSans-Regular",
+                },
+                Object {},
+              ]
+            }
+          >
+              
+          </Text>
+        </View>
+      </View>
+      <View
+        accessibilityActions={
+          Array [
+            Object {
+              "name": "activate",
+            },
+          ]
+        }
+        accessibilityElementsHidden={false}
+        accessibilityHint="Activate it to choose Off as the thermostat mode. Current selected option:  "
+        accessibilityLabel="Off"
+        accessibilityRole="radiogroup"
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        importantForAccessibility="auto"
+        onAccessibilityAction={[Function]}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#BFC0C2",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "height": 60,
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "paddingHorizontal": 16,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "height": 20,
+                  "marginHorizontal": 3,
+                  "width": 20,
+                }
+              }
+            >
+              <svg
+                data-file-name="SvgOff"
+                fill="#000"
+              />
+            </View>
+          </View>
+          <Text
+            accessible={true}
+            numberOfLines={0}
+            style={
+              Array [
+                Object {
+                  "textAlign": "left",
+                },
+                Object {
+                  "color": "#000000",
+                },
+                Object {
+                  "fontSize": 18,
+                  "lineHeight": 27,
+                },
+                Object {
+                  "fontFamily": "BoschSans-Medium",
+                },
+                Object {},
+              ]
+            }
+          >
+            Off
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          onAccessibilityTap={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            accessibilityState={
+              Object {
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID=""
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "borderRadius": 12,
+                    "height": 24,
+                    "justifyContent": "center",
+                    "width": 24,
+                  },
+                  Object {
+                    "backgroundColor": "rgba(164, 171, 179, 1)",
+                  },
+                ]
+              }
+            />
+          </View>
+          <Text
+            accessible={true}
+            numberOfLines={0}
+            style={
+              Array [
+                Object {
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#000000",
+                },
+                Object {
+                  "fontSize": 16,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "fontFamily": "BoschSans-Regular",
+                },
+                Object {},
+              ]
+            }
+          >
+              
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "marginHorizontal": 20,
+        }
+      }
+    >
+      <View>
+        <View
+          accessibilityElementsHidden={true}
+          accessibilityHint="Disabled button, select an option to enable it."
+          accessibilityRole="button"
+          accessibilityState={
+            Object {
+              "disabled": true,
+            }
+          }
+          accessible={true}
+          focusable={true}
+          importantForAccessibility="no-hide-descendants"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "marginVertical": 5,
+                "paddingVertical": 15,
+              },
+              Object {},
+              Object {
+                "backgroundColor": "#004975",
+              },
+              Object {
+                "backgroundColor": "#C1C7CC",
+              },
+              Object {
+                "borderColor": "#C1C7CC",
+                "borderWidth": 1,
+              },
+            ]
+          }
+          testID="submitModeSelection"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              numberOfLines={0}
+              style={
+                Array [
+                  Object {
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#FFFFFF",
+                  },
+                  Object {
+                    "fontSize": 16,
+                    "lineHeight": 24,
+                  },
+                  Object {
+                    "fontFamily": "BoschSans-Regular",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              Submit
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          accessibilityElementsHidden={false}
+          accessibilityRole="button"
+          accessibilityState={
+            Object {
+              "disabled": false,
+            }
+          }
+          accessible={true}
+          focusable={true}
+          importantForAccessibility="auto"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "marginVertical": 5,
+                "paddingVertical": 15,
+              },
+              Object {},
+              Object {},
+              Object {
+                "borderColor": "#004975",
+                "borderWidth": 1,
+              },
+            ]
+          }
+          testID="cancelButton"
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              numberOfLines={0}
+              style={
+                Array [
+                  Object {
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#004975",
+                  },
+                  Object {
+                    "fontSize": 16,
+                    "lineHeight": 24,
+                  },
+                  Object {
+                    "fontFamily": "BoschSans-Regular",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              Cancel
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>,
+  ",",
+]
+`;

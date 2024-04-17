@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_5628" data-name="Group 5628" transform="translate(-16 -164)">
+    <rect id="Rectangle_2715" data-name="Rectangle 2715" width="24" height="24" transform="translate(16 164)" fill="#fff"/>
+    <path id="temperature" d="M72.8,34.105V24.4H71.6v9.705a1.8,1.8,0,1,0,1.2,0ZM72.2,36.4a.6.6,0,1,1,.6-.6A.6.6,0,0,1,72.2,36.4Zm3-17.4a3,3,0,0,0-6,0V32.862a4.2,4.2,0,1,0,6,0Zm-3,19.8a3,3,0,0,1-2-5.236l.2-.179V19A1.8,1.8,0,1,1,74,19V33.386l.2.179a3,3,0,0,1-2,5.236Zm6.6-20.4v1.2H76.4V18.4Zm-2.4,3h2.4v1.2H76.4Zm0,3h2.4v1.2H76.4Zm0,3h2.4v1.2H76.4Zm0,3h2.4v1.2H76.4Z" transform="translate(-45 148)"/>
+  </g>
+</svg>

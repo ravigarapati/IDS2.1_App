@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <g id="Successful_Icon" data-name="Successful Icon" transform="translate(-118 -236)">
+    <circle id="Ellipse_9" data-name="Ellipse 9" cx="60" cy="60" r="60" transform="translate(118 236)" fill="#fff"/>
+    <path id="Ellipse_9_-_Outline" data-name="Ellipse 9 - Outline" d="M60,6a54,54,0,1,0,54,54A54.061,54.061,0,0,0,60,6m0-6A60,60,0,1,1,0,60,60,60,0,0,1,60,0Z" transform="translate(118 236)" fill="#006c3a"/>
+    <path id="checkmark" d="M51.738,89.7,33.2,72.007l2.425-2.31L51.738,85,85.174,53.2,87.6,55.51Z" transform="translate(117.786 224.786)" fill="#006c3a"/>
+    <path id="checkmark_-_Outline" data-name="checkmark - Outline" d="M51.737,91.427,31.388,72.006l4.236-4.034,16.113,15.3,33.438-31.8,4.237,4.035ZM35.012,72.008,51.738,87.972,85.788,55.51l-.614-.585-33.436,31.8-16.111-15.3Z" transform="translate(117.786 224.786)" fill="#006c3a"/>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+module Pods_IDSMobileApp {
+  umbrella header "Pods-IDSMobileApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

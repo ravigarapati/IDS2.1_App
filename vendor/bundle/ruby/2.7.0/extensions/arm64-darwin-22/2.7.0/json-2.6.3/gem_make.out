@@ -1,0 +1,17 @@
+current directory: /Users/andresazuara/Desktop/latestids/IDS_EasyAir_App/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+<<<<<<< HEAD
+/Users/andresazuara/.rvm/rubies/ruby-2.7.4/bin/ruby -I /Users/andresazuara/.rvm/rubies/ruby-2.7.4/lib/ruby/2.7.0 -r ./siteconf20230612-46719-1asgm6l.rb extconf.rb
+=======
+/Users/andresazuara/.rvm/rubies/ruby-2.7.4/bin/ruby -I /Users/andresazuara/.rvm/rubies/ruby-2.7.4/lib/ruby/2.7.0 -r ./siteconf20230612-1368-ny6n13.rb extconf.rb
+>>>>>>> feature/TTNAAPP-1696
+creating Makefile
+
+current directory: /Users/andresazuara/Desktop/latestids/IDS_EasyAir_App/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/andresazuara/Desktop/latestids/IDS_EasyAir_App/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/andresazuara/Desktop/latestids/IDS_EasyAir_App/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+make "DESTDIR=" install

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_5630" data-name="Group 5630" transform="translate(-21 -291)">
+    <g id="Group_5629" data-name="Group 5629" transform="translate(0 -12)">
+      <rect id="Rectangle_2716" data-name="Rectangle 2716" width="24" height="24" transform="translate(21 303)" fill="#fff"/>
+      <path id="calendar" d="M40,26.6h0V21.8H34V20H32.8v1.8H23.2V20H22v1.8H16v4.8h0v1.2h0V41H40V27.8h0ZM17.2,23H22v1.2h1.2V23h9.6v1.2H34V23h4.8v3.6H17.2ZM38.8,39.8H17.2v-12H38.8Z" transform="translate(5 285)"/>
+    </g>
+  </g>
+</svg>

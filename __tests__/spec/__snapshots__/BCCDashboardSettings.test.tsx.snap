@@ -1,0 +1,443 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BCC Dashboard settings screen (BCC100) Component to be rendered 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "height": 1040.52,
+    }
+  }
+>
+  <View
+    accessibilityHint="Navigates to a screen to update temperature configuration like unit temperature, auto-on, alert message and temperature limits."
+    accessibilityRole="button"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#BFC0C2",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+    testID="Temperature"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "width": 70,
+          }
+        }
+      >
+        <svg
+          data-file-name="SvgTemperature"
+          fill="#000"
+        />
+      </View>
+      <Text
+        accessible={true}
+        numberOfLines={0}
+        style={
+          Array [
+            Object {
+              "textAlign": "left",
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "BoschSans-Regular",
+            },
+            Object {},
+          ]
+        }
+      >
+        Temperature
+      </Text>
+    </View>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/Arrow.png",
+        }
+      }
+      style={
+        Object {
+          "marginRight": 9,
+        }
+      }
+    />
+  </View>
+  <View
+    accessibilityHint="Navigates to a screen to update date and time configuration like hour format, date, and time."
+    accessibilityRole="button"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#BFC0C2",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+    testID="Date & Time"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "width": 70,
+          }
+        }
+      >
+        <svg
+          data-file-name="SvgDateTime"
+          fill="#000"
+        />
+      </View>
+      <Text
+        accessible={true}
+        numberOfLines={0}
+        style={
+          Array [
+            Object {
+              "textAlign": "left",
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "BoschSans-Regular",
+            },
+            Object {},
+          ]
+        }
+      >
+        Date & Time
+      </Text>
+    </View>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/Arrow.png",
+        }
+      }
+      style={
+        Object {
+          "marginRight": 9,
+        }
+      }
+    />
+  </View>
+  <View
+    accessibilityHint="Navigates to a screen to update the location information of the device."
+    accessibilityRole="button"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#BFC0C2",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+    testID="Location"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "width": 70,
+          }
+        }
+      >
+        <svg
+          data-file-name="SvgLocation"
+          fill="#000"
+        />
+      </View>
+      <Text
+        accessible={true}
+        numberOfLines={0}
+        style={
+          Array [
+            Object {
+              "textAlign": "left",
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "BoschSans-Regular",
+            },
+            Object {},
+          ]
+        }
+      >
+        Location
+      </Text>
+    </View>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/Arrow.png",
+        }
+      }
+      style={
+        Object {
+          "marginRight": 9,
+        }
+      }
+    />
+  </View>
+  <View
+    accessibilityHint="Navigates to a screen to lock the device remotely."
+    accessibilityRole="button"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#BFC0C2",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+    testID="Lock Screen"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "width": 70,
+          }
+        }
+      >
+        <svg
+          data-file-name="SvgLockScreen"
+          fill="#000"
+        />
+      </View>
+      <Text
+        accessible={true}
+        numberOfLines={0}
+        style={
+          Array [
+            Object {
+              "textAlign": "left",
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "BoschSans-Regular",
+            },
+            Object {},
+          ]
+        }
+      >
+        Lock Screen
+      </Text>
+    </View>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/Arrow.png",
+        }
+      }
+      style={
+        Object {
+          "marginRight": 9,
+        }
+      }
+    />
+  </View>
+  <View
+    accessibilityHint="Navigates to a screen to review the information of the device like model, software and hardware version, and MAC ID."
+    accessibilityRole="button"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#BFC0C2",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+    testID="Device Information"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingVertical": 20,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "width": 70,
+          }
+        }
+      >
+        <svg
+          data-file-name="SvgDeviceInfo"
+          fill="#000"
+        />
+      </View>
+      <Text
+        accessible={true}
+        numberOfLines={0}
+        style={
+          Array [
+            Object {
+              "textAlign": "left",
+            },
+            Object {
+              "color": "#000000",
+            },
+            Object {
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "BoschSans-Regular",
+            },
+            Object {},
+          ]
+        }
+      >
+        Device Information
+      </Text>
+    </View>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/Arrow.png",
+        }
+      }
+      style={
+        Object {
+          "marginRight": 9,
+        }
+      }
+    />
+  </View>
+</View>
+`;

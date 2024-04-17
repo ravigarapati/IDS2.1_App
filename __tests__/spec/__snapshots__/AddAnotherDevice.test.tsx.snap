@@ -1,0 +1,226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Add Another Device screen Component to be rendered 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "white",
+        "flex": 1,
+      },
+      Object {
+        "padding": 10,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "white",
+          "flex": 1,
+        },
+        Object {
+          "alignItems": "center",
+          "justifyContent": "space-evenly",
+          "marginHorizontal": 40,
+        },
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/addanotherdevice.png",
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      numberOfLines={0}
+      style={
+        Array [
+          Object {
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#000000",
+          },
+          Object {
+            "fontSize": 21,
+            "lineHeight": 31.5,
+          },
+          Object {
+            "fontFamily": "BoschSans-Medium",
+          },
+          Object {},
+        ]
+      }
+    >
+      Would you like to add
+another Appliance?
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "white",
+          "flex": 1,
+        },
+        Object {
+          "justifyContent": "flex-end",
+          "marginBottom": 20,
+        },
+      ]
+    }
+  >
+    <View>
+      <View
+        accessibilityElementsHidden={false}
+        accessibilityRole="button"
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        focusable={true}
+        importantForAccessibility="auto"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "marginVertical": 5,
+              "paddingVertical": 15,
+            },
+            Object {},
+            Object {
+              "backgroundColor": "#004975",
+            },
+            Object {},
+            Object {
+              "borderColor": "#004975",
+              "borderWidth": 1,
+            },
+          ]
+        }
+        testID="submit"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            numberOfLines={0}
+            style={
+              Array [
+                Object {
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#FFFFFF",
+                },
+                Object {
+                  "fontSize": 16,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "fontFamily": "BoschSans-Regular",
+                },
+                Object {},
+              ]
+            }
+          >
+            Yes
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        accessibilityElementsHidden={false}
+        accessibilityRole="button"
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        focusable={true}
+        importantForAccessibility="auto"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "marginVertical": 5,
+              "paddingVertical": 15,
+            },
+            Object {},
+            Object {},
+            Object {
+              "borderColor": "#004975",
+              "borderWidth": 1,
+            },
+          ]
+        }
+        testID="cancel"
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            numberOfLines={0}
+            style={
+              Array [
+                Object {
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "#004975",
+                },
+                Object {
+                  "fontSize": 16,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "fontFamily": "BoschSans-Regular",
+                },
+                Object {},
+              ]
+            }
+          >
+            No
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

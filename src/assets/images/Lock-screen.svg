@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_6020" data-name="Group 6020" transform="translate(-24 -568)">
+    <rect id="Rectangle_2716" data-name="Rectangle 2716" width="24" height="24" transform="translate(24 568)" fill="#fff"/>
+    <path id="lock-closed_1_" data-name="lock-closed (1)" d="M48.2,24.4V22.6a6.6,6.6,0,1,0-13.2,0v1.8H32V40H51.2V24.4Zm-12-1.8a5.4,5.4,0,1,1,10.8,0v1.8H36.2ZM50,38.8H33.2V25.6H50Zm-10.2-3h3.6V32.584a2.4,2.4,0,1,0-4.187-1.842,2.376,2.376,0,0,0,.587,1.842Zm.607-4.931a1.215,1.215,0,0,1,1.055-1.061,1.2,1.2,0,0,1,.938,2.085l-.2.179V34.6H41V32.071l-.2-.179A1.193,1.193,0,0,1,40.407,30.869Z" transform="translate(-5.6 552)"/>
+  </g>
+</svg>

@@ -1,0 +1,413 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeadBand screen Rendered screen on celcius mode 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/images/header_ribbon.png",
+      }
+    }
+    style={
+      Object {
+        "height": 8,
+        "width": "100%",
+      }
+    }
+  />
+  <RCTScrollView>
+    <View>
+      <View>
+        <View
+          style={
+            Object {
+              "padding": 15,
+            }
+          }
+        >
+          <View>
+            <View
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <View
+                accessibilityHint="Activate to open the modal to select the deadband."
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "borderBottomWidth": 1,
+                      "height": 56,
+                      "paddingLeft": 10,
+                      "paddingRight": 16,
+                      "width": "100%",
+                    },
+                    Object {
+                      "backgroundColor": "#EFF1F2",
+                    },
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                    },
+                  ]
+                }
+                testID="setDeadBand"
+              >
+                <View>
+                  <Text
+                    accessible={true}
+                    numberOfLines={0}
+                    style={
+                      Array [
+                        Object {
+                          "textAlign": "left",
+                        },
+                        Object {
+                          "color": "#000000",
+                        },
+                        Object {
+                          "fontSize": 12,
+                          "lineHeight": 18,
+                        },
+                        Object {
+                          "fontFamily": "BoschSans-Regular",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    Set to
+                  </Text>
+                  <Text
+                    accessible={true}
+                    numberOfLines={0}
+                    style={
+                      Array [
+                        Object {
+                          "textAlign": "left",
+                        },
+                        Object {
+                          "color": "#000000",
+                        },
+                        Object {
+                          "fontSize": 16,
+                          "lineHeight": 24,
+                        },
+                        Object {
+                          "fontFamily": "BoschSans-Regular",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    0 °C
+                  </Text>
+                </View>
+                <svg
+                  data-file-name="SvgTemperature1"
+                  fill="#000"
+                />
+              </View>
+              <Modal
+                animationType="slide"
+                hardwareAccelerated={false}
+                onRequestClose={[Function]}
+                transparent={true}
+                visible={false}
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginTop": 33,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="Info"
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#00629A",
+                    "fontSize": 20,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "Bosch-Icon",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <Text
+              accessibilityLabel="Use the deadband to adjust the minimum value allowed between the heating & cooling set points in Auto mode."
+              accessible={true}
+              numberOfLines={0}
+              style={
+                Array [
+                  Object {
+                    "textAlign": "left",
+                  },
+                  Object {
+                    "color": "#000000",
+                  },
+                  Object {
+                    "fontSize": 12,
+                    "lineHeight": 18,
+                  },
+                  Object {
+                    "fontFamily": "BoschSans-Regular",
+                  },
+                  Object {
+                    "flexShrink": 1,
+                    "paddingLeft": 12,
+                  },
+                ]
+              }
+            >
+              Use the deadband to adjust the minimum value allowed between the heating & cooling set points in Auto mode.
+
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`DeadBand screen Rendered screen on fahrenheit mode 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/images/header_ribbon.png",
+      }
+    }
+    style={
+      Object {
+        "height": 8,
+        "width": "100%",
+      }
+    }
+  />
+  <RCTScrollView>
+    <View>
+      <View>
+        <View
+          style={
+            Object {
+              "padding": 15,
+            }
+          }
+        >
+          <View>
+            <View
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <View
+                accessibilityHint="Activate to open the modal to select the deadband."
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "borderBottomWidth": 1,
+                      "height": 56,
+                      "paddingLeft": 10,
+                      "paddingRight": 16,
+                      "width": "100%",
+                    },
+                    Object {
+                      "backgroundColor": "#EFF1F2",
+                    },
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                    },
+                  ]
+                }
+                testID="setDeadBand"
+              >
+                <View>
+                  <Text
+                    accessible={true}
+                    numberOfLines={0}
+                    style={
+                      Array [
+                        Object {
+                          "textAlign": "left",
+                        },
+                        Object {
+                          "color": "#000000",
+                        },
+                        Object {
+                          "fontSize": 12,
+                          "lineHeight": 18,
+                        },
+                        Object {
+                          "fontFamily": "BoschSans-Regular",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    Set to
+                  </Text>
+                  <Text
+                    accessible={true}
+                    numberOfLines={0}
+                    style={
+                      Array [
+                        Object {
+                          "textAlign": "left",
+                        },
+                        Object {
+                          "color": "#000000",
+                        },
+                        Object {
+                          "fontSize": 16,
+                          "lineHeight": 24,
+                        },
+                        Object {
+                          "fontFamily": "BoschSans-Regular",
+                        },
+                        Object {},
+                      ]
+                    }
+                  >
+                    0 °F
+                  </Text>
+                </View>
+                <svg
+                  data-file-name="SvgTemperature1"
+                  fill="#000"
+                />
+              </View>
+              <Modal
+                animationType="slide"
+                hardwareAccelerated={false}
+                onRequestClose={[Function]}
+                transparent={true}
+                visible={false}
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "marginTop": 33,
+              }
+            }
+          >
+            <Text
+              accessibilityLabel="Info"
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#00629A",
+                    "fontSize": 20,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "Bosch-Icon",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <Text
+              accessibilityLabel="Use the deadband to adjust the minimum value allowed between the heating & cooling set points in Auto mode."
+              accessible={true}
+              numberOfLines={0}
+              style={
+                Array [
+                  Object {
+                    "textAlign": "left",
+                  },
+                  Object {
+                    "color": "#000000",
+                  },
+                  Object {
+                    "fontSize": 12,
+                    "lineHeight": 18,
+                  },
+                  Object {
+                    "fontFamily": "BoschSans-Regular",
+                  },
+                  Object {
+                    "flexShrink": 1,
+                    "paddingLeft": 12,
+                  },
+                ]
+              }
+            >
+              Use the deadband to adjust the minimum value allowed between the heating & cooling set points in Auto mode.
+
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

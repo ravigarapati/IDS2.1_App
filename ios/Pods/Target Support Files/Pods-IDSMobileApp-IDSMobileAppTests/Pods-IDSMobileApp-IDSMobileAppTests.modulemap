@@ -1,0 +1,6 @@
+module Pods_IDSMobileApp_IDSMobileAppTests {
+  umbrella header "Pods-IDSMobileApp-IDSMobileAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
