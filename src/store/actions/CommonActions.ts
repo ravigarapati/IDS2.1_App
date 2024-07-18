@@ -17,7 +17,7 @@ export const apiInterceptorForGet = async (
   let apiName = '';
   //const apiName = 'ttnacloudplatform-api';
   if (APIName === '' || APIName === undefined || APIName === null) {
-    apiName = 'ttnacloudplatform-api-2.1';
+    apiName = 'ttnacloudplatform-testing-api';
   } else {
     apiName = APIName;
   }
@@ -47,15 +47,18 @@ export const apiInterceptorForGet = async (
       if (noLoadingScreen === undefined) {
         turnOffLoader(dispatch, path);
       }
-      if (errorCallback) {
-        if (error.response && error.response.data.error.message) {
-          errorCallback(error.response.data.error.message);
-        } else {
-          errorCallback(error.message);
+      if(error.message!='Network Error')
+        {
+          if (errorCallback) {
+            if (error.response && error.response.data.error.message) {
+              errorCallback(error.response.data.error.message);
+            } else {
+              errorCallback(error.message);
+            }
+          } else {
+            showToast(error.message, 'error');
+          }
         }
-      } else {
-        showToast(error.message, 'error');
-      }
     });
 };
 
@@ -66,17 +69,24 @@ export const apiInterceptorForGetIDS = async (
   errorCallback?,
   noLoadingScreen?,
 ) => {
-  let baseurl = 'https://93wcx0em15.execute-api.us-east-1.amazonaws.com/dev'; //'https://tkhhujg681.execute-api.us-east-1.amazonaws.com/testing/';
+  let baseurl =
+    'https://xry2qkovdj.execute-api.us-east-1.amazonaws.com/testing'; //'https://tkhhujg681.execute-api.us-east-1.amazonaws.com/testing/';
   turnOnLoader(dispatch, path);
   //let accessToken = 'Bearer eyJraWQiOiJBTDNnVHc4bnFpTGxXVU5neGptcFZcL3RjVEttdU9kRWk1dExkZXdFTnV2ST0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJmMGY0ZTRhNi1mNTljLTRhOWItODFhNi1jNDAyM2QyYjQ5M2UiLCJjb2duaXRvOmdyb3VwcyI6WyJIb21lT3duZXIiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tXC91cy1lYXN0LTFfWEJSWVAydEVpIiwidmVyc2lvbiI6MiwiY2xpZW50X2lkIjoiNWhwamlrbzBzMW1hNW1qaGRzajhmZjB0ZDciLCJvcmlnaW5fanRpIjoiNDA5MjY3MjUtMmQ4NS00YWNhLTlhZjEtOWE5NmM2MmIzYWE5IiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiBwaG9uZSBvcGVuaWQgcHJvZmlsZSBlbWFpbCIsImF1dGhfdGltZSI6MTY4NjMzMzQzOSwiZXhwIjoxNjg2NDE5ODM5LCJpYXQiOjE2ODYzMzM0MzksImp0aSI6ImFlYjdhZjc0LTE1ZmQtNDE0ZC04YWIyLWE1ODQ4ZGI3OGI1OCIsInVzZXJuYW1lIjoiSURTLVRUTkFfN2ZkNDVlNDctYmM5Mi00MDVlLThiOWMtNWQ1YzMxMzM5NTQ2In0.amsOcuIPMfDmkbGgKnnuTNRcMBapMh9nQasYIWpuYvW0UHnoRqzlJh_wq-MZRDo-XkToxmiREncU10kVuduWHLaqrIl4BbYIVYfmj1OFYMqe9xMKopx0h-32yBH2k27uwZgt7-6tuI5JgW1Yv5Ty2qvLOloU8ZQ3Ruy4MTuaISnClDeixWQOvvsfP0_cf3jNlJtUeFtZckUe2Y9fOh3Bat15WyCjVSiNl0YzS1wvelWNV9bZbrgDfIW19bMkmXk1jC1tUDOeKCpp5IGF4MF1rl1sE4fbBo8zRy5pmtCJRMltYXIBZiuq7CaiRwxBHgCN52aK-vuEj666hClUtLO6lg';
   let accessToken = await getAccessToken();
   if (baseurl.includes('r9nzt6y3ui')) {
-    baseurl = baseurl.replace('r9nzt6y3ui', '32q8g5g5sh');
+    //HC
+    //baseurl = baseurl.replace('r9nzt6y3ui', '9hiwm1jm25');
+    //HC integration
+    baseurl = baseurl.replace(
+      'https://r9nzt6y3ui.execute-api.us-east-1.amazonaws',
+      'https://bccapi.boschttna-test',
+    );
     if (baseurl.includes('development')) {
-      baseurl = baseurl.replace('development', 'testing');
+      baseurl = baseurl.replace('/development', '');
     }
     if (path.includes('development')) {
-      path = path.replace('development', 'testing');
+      path = path.replace('/development', '');
     }
   }
 
@@ -125,7 +135,7 @@ export const apiInterceptorForPostIDS = async (
   headers.append(
     'Authorization',
     //`Bearer eyJraWQiOiJBTDNnVHc4bnFpTGxXVU5neGptcFZcL3RjVEttdU9kRWk1dExkZXdFTnV2ST0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJmMGY0ZTRhNi1mNTljLTRhOWItODFhNi1jNDAyM2QyYjQ5M2UiLCJjb2duaXRvOmdyb3VwcyI6WyJIb21lT3duZXIiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tXC91cy1lYXN0LTFfWEJSWVAydEVpIiwidmVyc2lvbiI6MiwiY2xpZW50X2lkIjoiNWhwamlrbzBzMW1hNW1qaGRzajhmZjB0ZDciLCJvcmlnaW5fanRpIjoiNDA5MjY3MjUtMmQ4NS00YWNhLTlhZjEtOWE5NmM2MmIzYWE5IiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiBwaG9uZSBvcGVuaWQgcHJvZmlsZSBlbWFpbCIsImF1dGhfdGltZSI6MTY4NjMzMzQzOSwiZXhwIjoxNjg2NDE5ODM5LCJpYXQiOjE2ODYzMzM0MzksImp0aSI6ImFlYjdhZjc0LTE1ZmQtNDE0ZC04YWIyLWE1ODQ4ZGI3OGI1OCIsInVzZXJuYW1lIjoiSURTLVRUTkFfN2ZkNDVlNDctYmM5Mi00MDVlLThiOWMtNWQ1YzMxMzM5NTQ2In0.amsOcuIPMfDmkbGgKnnuTNRcMBapMh9nQasYIWpuYvW0UHnoRqzlJh_wq-MZRDo-XkToxmiREncU10kVuduWHLaqrIl4BbYIVYfmj1OFYMqe9xMKopx0h-32yBH2k27uwZgt7-6tuI5JgW1Yv5Ty2qvLOloU8ZQ3Ruy4MTuaISnClDeixWQOvvsfP0_cf3jNlJtUeFtZckUe2Y9fOh3Bat15WyCjVSiNl0YzS1wvelWNV9bZbrgDfIW19bMkmXk1jC1tUDOeKCpp5IGF4MF1rl1sE4fbBo8zRy5pmtCJRMltYXIBZiuq7CaiRwxBHgCN52aK-vuEj666hClUtLO6lg`,
-    `Bearer ${accessToken}`,
+    `${accessToken}`,
   );
   headers.append('Accept', 'application/json');
   let content = {
@@ -135,7 +145,6 @@ export const apiInterceptorForPostIDS = async (
   if (noLoadingScreen == undefined) {
     turnOnLoader(dispatch, path);
   }
-
   fetch(baseurl + path, {
     method: 'POST',
     body: JSON.stringify(body),
@@ -163,12 +172,18 @@ export const apiInterceptorForGetCustomApi = async (
   //const apiName = 'ttnacloudplatform-api';
   let accessToken = await getAccessToken();
   if (baseurl.includes('r9nzt6y3ui')) {
-    baseurl = baseurl.replace('r9nzt6y3ui', '32q8g5g5sh');
+    //HC
+    //baseurl = baseurl.replace('r9nzt6y3ui', '9hiwm1jm25');
+    //HC integration
+    baseurl = baseurl.replace(
+      'https://r9nzt6y3ui.execute-api.us-east-1.amazonaws',
+      'https://bccapi.boschttna-test',
+    );
     if (baseurl.includes('development')) {
-      baseurl = baseurl.replace('development', 'testing');
+      baseurl = baseurl.replace('/development', '');
     }
     if (path.includes('development')) {
-      path = path.replace('development', 'testing');
+      path = path.replace('/development', '');
     }
   }
 
@@ -184,6 +199,7 @@ export const apiInterceptorForGetCustomApi = async (
   if (noLoadingScreen == undefined) {
     turnOnLoader(dispatch, path);
   }
+
   return fetch(baseurl + path, {
     method: 'GET',
     headers: content.headers,
@@ -214,12 +230,18 @@ export const apiInterceptorForPostCustomApi = async (
   let accessToken = await getAccessToken();
 
   if (baseurl.includes('r9nzt6y3ui')) {
-    baseurl = baseurl.replace('r9nzt6y3ui', '32q8g5g5sh');
+    //HC
+    //baseurl = baseurl.replace('r9nzt6y3ui', '9hiwm1jm25');
+    //HC integration
+    baseurl = baseurl.replace(
+      'https://r9nzt6y3ui.execute-api.us-east-1.amazonaws',
+      'https://bccapi.boschttna-test',
+    );
     if (baseurl.includes('development')) {
-      baseurl = baseurl.replace('development', 'testing');
+      baseurl = baseurl.replace('/development', '');
     }
     if (path.includes('development')) {
-      path = path.replace('development', 'testing');
+      path = path.replace('/development', '');
     }
   }
   let headers = new Headers();
@@ -234,7 +256,7 @@ export const apiInterceptorForPostCustomApi = async (
   if (noLoadingScreen == undefined) {
     turnOnLoader(dispatch, path);
   }
-  console.log(baseurl + path);
+
   fetch(baseurl + path, {
     method: 'POST',
     body: JSON.stringify(body),
@@ -277,7 +299,7 @@ export const apiInterceptorForPost = async (
   let apiName = '';
   // const apiName = 'ttnacloudplatform-api';
   if (APIName === '' || APIName === undefined || APIName === null) {
-    apiName = 'ttnacloudplatform-api-2.1';
+    apiName = 'ttnacloudplatform-testing-api';
   } else {
     apiName = APIName;
   }
@@ -304,15 +326,18 @@ export const apiInterceptorForPost = async (
       if (noLoadingScreen == undefined) {
         turnOffLoader(dispatch, path);
       }
-      if (errorCallback) {
-        if (error.response && error.response.data.error.message) {
-          errorCallback(error.response.data.error.message);
-        } else {
-          errorCallback(error.message);
+        if(error.message!='Network Error')
+          {
+          if (errorCallback) {
+            if (error.response && error.response.data.error.message) {
+              errorCallback(error.response.data.error.message);
+            } else {
+              errorCallback(error.message);
+            }
+          } else {
+            showToast(error.message, 'error');
+          }
         }
-      } else {
-        showToast(error.message, 'error');
-      }
     });
 };
 export const apiInterceptorForPut = async (
@@ -327,7 +352,7 @@ export const apiInterceptorForPut = async (
   let apiName = '';
 
   if (APIName === '' || APIName === undefined || APIName === null) {
-    apiName = 'ttnacloudplatform-api-2.1';
+    apiName = 'ttnacloudplatform-testing-api';
   } else {
     apiName = APIName;
   }
@@ -350,15 +375,18 @@ export const apiInterceptorForPut = async (
     })
     .catch(error => {
       turnOffLoader(dispatch, path);
-      if (errorCallback) {
-        if (error.response && error.response.data.error.message) {
-          errorCallback(error.response.data.error.message);
-        } else {
-          errorCallback(error.message);
+      if(error.message!='Network Error')
+        {
+          if (errorCallback) {
+            if (error.response && error.response.data.error.message) {
+              errorCallback(error.response.data.error.message);
+            } else {
+              errorCallback(error.message);
+            }
+          } else {
+            showToast(error.message, 'error');
+          }
         }
-      } else {
-        showToast(error.message, 'error');
-      }
     });
 };
 
@@ -374,7 +402,7 @@ export const apiInterceptorForDelete = async (
   let apiName = '';
 
   if (APIName === '' || APIName === undefined || APIName === null) {
-    apiName = 'ttnacloudplatform-api-2.1';
+    apiName = 'ttnacloudplatform-testing-api';
   } else {
     apiName = APIName;
   }
@@ -396,15 +424,18 @@ export const apiInterceptorForDelete = async (
     })
     .catch(error => {
       turnOffLoader(dispatch, path);
-      if (errorCallback) {
-        if (error.response && error.response.data.error.message) {
-          errorCallback(error.response.data.error.message);
-        } else {
-          errorCallback(error.message);
+      if(error.message!='Network Error')
+        {
+          if (errorCallback) {
+            if (error.response && error.response.data.error.message) {
+              errorCallback(error.response.data.error.message);
+            } else {
+              errorCallback(error.message);
+            }
+          } else {
+            showToast(error.message, 'error');
+          }
         }
-      } else {
-        showToast(error.message, 'error');
-      }
     });
 };
 export const notifyError = value => {
@@ -453,7 +484,7 @@ export const openApiInterceptorForGet = async (
   callback,
   errorCallback?,
 ) => {
-  const apiName = 'ttnacloudplatform-api-2.1';
+  const apiName = 'ttnacloudplatform-testing-api';
   turnOnLoader(dispatch, path);
   //let accessToken = await getAccessToken();
   let content = {
@@ -471,15 +502,18 @@ export const openApiInterceptorForGet = async (
     })
     .catch(error => {
       turnOffLoader(dispatch, path);
-      if (errorCallback) {
-        if (error.response && error.response.data.error.message) {
-          errorCallback(error.response.data.error.message);
-        } else {
-          errorCallback(error.message);
+        if(error.message!='Network Error')
+        {
+          if (errorCallback) {
+            if (error.response && error.response.data.error.message) {
+              errorCallback(error.response.data.error.message);
+            } else {
+              errorCallback(error.message);
+            }
+          } else {
+            showToast(error.message, 'error');
+          }
         }
-      } else {
-        showToast(error.message, 'error');
-      }
     });
 };
 
@@ -506,15 +540,18 @@ export const apiInterceptorForGetPR = async (
     })
     .catch(error => {
       turnOffLoader(dispatch, path);
-      if (errorCallback) {
-        if (error.response && error.response.data.error.message) {
-          errorCallback(error.response.data.error.message);
-        } else {
-          errorCallback(error.message);
+      if(error.message!='Network Error')
+        {
+          if (errorCallback) {
+            if (error.response && error.response.data.error.message) {
+              errorCallback(error.response.data.error.message);
+            } else {
+              errorCallback(error.message);
+            }
+          } else {
+            showToast(error.message, 'error');
+          }
         }
-      } else {
-        showToast(error.message, 'error');
-      }
     });
 };
 export const apiInterceptorForPostPR = async (
@@ -542,14 +579,17 @@ export const apiInterceptorForPostPR = async (
     })
     .catch(error => {
       turnOffLoader(dispatch, path);
-      if (errorCallback) {
-        if (error.response && error.response.data.error.message) {
-          errorCallback(error.response.data.error.message);
-        } else {
-          errorCallback(error.message);
+      if(error.message!='Network Error')
+        {
+          if (errorCallback) {
+            if (error.response && error.response.data.error.message) {
+              errorCallback(error.response.data.error.message);
+            } else {
+              errorCallback(error.message);
+            }
+          } else {
+            showToast(error.message, 'error');
+          }
         }
-      } else {
-        showToast(error.message, 'error');
-      }
     });
 };

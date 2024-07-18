@@ -5,6 +5,7 @@ import {
   Alert,
   FlatList,
   Linking,
+  PixelRatio,
   Platform,
   StyleSheet,
   TouchableNativeFeedback,
@@ -314,6 +315,7 @@ export default function Notification(props) {
     index,
     uniqueKey,
     issueDate,
+    accessibleUnitsArray
   ) {
     if (activeNotificationListCopy[index].unread) {
       activeNotificationListCopy[index].unread = false;
@@ -345,6 +347,7 @@ export default function Notification(props) {
       }
       case 'permissionChanged': {
         variables.tab='list'
+        dispatch(ContractorActions.setUnitsGrantedPermission(accessibleUnitsArray))
         routeHandler('ContractorHome');
         break;
       }
@@ -419,7 +422,7 @@ export default function Notification(props) {
                 name={itemInfo ? Icons[itemInfo.icon] : ''}
                 color={itemInfo ? Colors[itemInfo.iconColor] : ''}
                 size={28}
-                style={styles.tabIcon}
+                style={[styles.tabIcon,{flex:1}]}
               />
             </View>
             <View style={[styles.flexCol2]}>
@@ -507,6 +510,8 @@ export default function Notification(props) {
                           index,
                           item.uniqueKey,
                           item.issueDate,
+                          item.data &&
+                          item.data.accessibleUnitsArray ?item.data.accessibleUnitsArray:''
                         );
                   }}
                   textStyle={{color: Colors.mediumBlue}}
@@ -611,7 +616,7 @@ export default function Notification(props) {
                       /*if company is null or undefine we need to show 'a company' which handle in frontend*/
                       (item && item.data !== undefined) ||
                       (item && item.data !== null)
-                        ? item.data.contractorName
+                        ? item.data
                         : 'a company'
                     }.${Dictionary.notification.companyInviteMessage2}`
                   : itemInfo &&
@@ -1117,6 +1122,9 @@ export default function Notification(props) {
           primaryButtonOnPress={() => {
             setRequestClicked(false);
             dispatch(ContractorActions.getInvitedContractorList());
+          }}
+          closeModal={() => {
+            setRequestClicked(false);
           }}
         />
       </View>

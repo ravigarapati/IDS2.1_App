@@ -95,10 +95,10 @@ import IDSSecureStorage from './src/utils/memory';
 const awsmobile = {
   aws_project_region: 'us-east-1',
   aws_cognito_region: 'us-east-1',
-  aws_user_pools_id: 'us-east-1_ZANJGDt2u',
-  aws_user_pools_web_client_id: '70jqkkntjb86rmsb3jc69kdn86',
+  aws_user_pools_id: 'us-east-1_QpSmPYmJW',
+  aws_user_pools_web_client_id: '6vo6t7ek82of7m9s0tuvuq0ige',
   oauth: {
-    domain: 'idscs-easyair-dev.auth.us-east-1.amazoncognito.com',
+    domain: 'idscs-testing.auth.us-east-1.amazoncognito.com',
     scope: [
       'phone',
       'email',
